@@ -8,8 +8,8 @@
 
 
   ## gerador de desculpa
-  DESCRIÇÃO: é um site que gerar três partes  de uma frase para fazer uma desculpa usada por devs.
-  Link para acessar os códigos: [Acessar a pasta do projeto](/Gerador-de-Desculpa)
+  DESCRIÇÃO: é um site que gerar três partes  de uma frase para fazer uma desculpa usada por devs
+  link para acessar o site:[acessar o site](https://pedroalexandrefs.github.io/projetos-javaScript/Gerador-de-Desculpa)
   <br>
   <br>
   ![Preview do meu projeto](/preview-projetos/gerador-de-desculpa.png)
