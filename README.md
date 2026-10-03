@@ -1,3 +1,11 @@
-# gerador de desculpa de devs 
+# projetos de javaScript
 
-`DESCRIÇÃO`: É um que vai sortear três partes de frases para forma uma desculpa de algum problema.
+`DESCRIÇÃO`: esse vai ser uma lista de projetos js que estou fazendo durante meu aprendizado, projetos abaixo.
+
+
+# Meus projetos:
+* [gerador de Desculpa](#gerador-de-Desculpa)
+
+
+  ## gerador de desculpa
+  DESCRIÇÃO: é um site que gerar três partes  de uma frase para fazer uma desculpa usada por devs.
