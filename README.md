@@ -9,7 +9,7 @@
 
   ## gerador de desculpa
   DESCRIÇÃO: é um site que gerar três partes  de uma frase para fazer uma desculpa usada por devs.
-  Link para acessar os códigos: [Acessar a pasta do projeto](/Gerador-de-Desculpa)
+  Link para acessar os códigos: [Acessar a pasta do projeto](/https://github.io)
   <br>
   <br>
   ![Preview do meu projeto](/preview-projetos/gerador-de-desculpa.png)
