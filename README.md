@@ -5,6 +5,7 @@
 
 # Meus projetos:
 * [gerador de Desculpa](#Gerador-de-Desculpa)
+* [simulador de Parcelas](#simulador-de-parcelas)
 
 
   ## gerador de desculpa
@@ -13,3 +14,9 @@
   <br>
   <br>
   ![Preview do meu projeto](/preview-projetos/gerador-de-desculpa.png)
+
+  <br>
+  <br>
+  ## Simulador de Parcelas
+  DESCRIÇÂO: é um site que simular parcelas com juros compostos.<br>
+  
