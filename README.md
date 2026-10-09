@@ -20,3 +20,5 @@
 # simulador de parcelas
 DESCRIÇÃO: é um site que simula parcelas compostos
 link para acessar o site:[acessar o site](https://pedroalexandrefs.github.io/projetos-javaScript/simulador-de-parcelas)
+<br><br>
+![Preview do meu projeto](/preview-projetos)
