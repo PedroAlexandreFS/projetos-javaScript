@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <title>simulador de parcelas</title>
+</head>
+
+<body>
+    <main>
+        <!-- ==== TITULO PRINCIPAL ==== -->
+        <h1>Simulador De Parcelas</h1>
+        <!-- ==== VALOR DO PRODUTO ==== -->
+        <P>O Valor do produto: </P>
+        <input id="valorProduto" type="text" placeholder="R$00.00">
+        <!-- ==== QUANTIDADE DE PARCELAS ==== -->
+        <p>quantidade de parcelas: </p>
+        <select id="QuantidadeParcelas">
+            <option value="1">1x (Sem juros)</option>
+            <option value="2">2x (sem juros)</option>
+            <option value="3">3x (sem juros)</option>
+            <option value="4">4x (com 1.5% juros/mês)</option>
+            <option value="5">5x (com 1.5% juros/mês)</option>
+            <option value="6">6x (com 1.5% juros/mês)</option>
+            <option value="7">7x (com 2.5% juros/mês)</option>
+            <option value="8">8x (com 2.5% juros/mês)</option>
+            <option value="9">9x (com 2.5% juros/mês)</option>
+            <option value="10">10x (com 2.5% juros/mês)</option>
+            <option value="11">11x (com 2.5% juros/mês)</option>
+            <option value="12">12x (com 2.5% juros/mês)</option>
+        </select>
+        <!-- ==== BOTÃO PARA CALCULAR ==== -->
+        <button id="btn-resultado">Calcular</button>
+        <!-- ==== RESULTADO FINAL ==== -->
+        <p id="resultado"></p>
+
+        <p  class="creditos">Feito por PedroAlexandreFS</p>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
