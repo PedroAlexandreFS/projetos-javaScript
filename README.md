@@ -6,6 +6,7 @@
 # Meus projetos:
 * [gerador de Desculpa](#Gerador-de-Desculpa)
 * [simulador de Parcelas](#simulador-de-parcelas)
+* [Formatador de whatsApp](#Formatador-de-whatsApp)
 
 
   # gerador de desculpa
@@ -21,4 +22,11 @@
 DESCRIÇÃO: é um site que simula parcelas compostos
 link para acessar o site:[acessar o site](https://pedroalexandrefs.github.io/projetos-javaScript/simulador-de-parcelas)
 <br><br>
-![Preview do meu projeto](/preview-projetos)
+![Preview do meu projeto](/preview-projetos/simulador-parcela.png)
+<br>
+<br>
+# Formatador de whatsApp
+DESCRIÇÃO: é um site simples para formatação de texto para whatsApp.
+link para o site:[acessar o site](https://pedroalexandrefs.github.io/projetos-javaScript/Formatador-de-whatsApp)
+<br><br>
+![preview do meu projeto](/preview-projetos/formatador-whats.png)
