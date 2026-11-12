@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <title>Calculadora freelancer</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora freelancer</h1>
+    </header>
+    <main class="card">
+        <section id="form">
+            <form id="FormCal">
+                <div>
+                    <label for="RMensal">Renda Mensal Desejada</label>
+                    <input id="RMensal" type="number" min="0" required>
+                </div>
+
+                <div>
+                    <label for="RFixa">Custo fixo</label>
+                    <input id="RFixa" type="number" min="0" required>
+                </div>
+
+                <div>
+                    <label for="Horas">Horas Trabalhadas por dia</label>
+                    <input id="Horas" type="number" min="0" required>
+                </div>
+
+                <div>
+                    <label for="DMes">Dias por mês</label>
+                    <input id="DMes" type="number" min="0" required>
+                </div>
+                <div>
+                    <label for="HorasPro">Horas estimadas por projetos</label>
+                    <input id="HorasPro" type="number" min="0" required>
+                </div>
+                <div>
+                    <label for="MarSegu">Margem de segurança</label>
+                    <input id="MarSegu" type="number" min="0" required>
+                </div>
+                <div id="botaodiv">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <section id="resultado">
+            <h2>Resumo Do Orçamento</h2>
+            <p>Valor da hora:<span id="ValoHora">R$0.00</span></p>
+            <p>Valor do projeto:<span id="ValoPro">R$0.00</span></p>
+
+        </section>
+    </main>
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
