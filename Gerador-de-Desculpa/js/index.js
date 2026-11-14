@@ -10,9 +10,9 @@ function DarkMode() {
     document.body.classList.toggle("dark-mode");
     const botaoDark = document.getElementById("btn-dark");
     if (document.body.classList.contains("dark-mode")) {
-        botaoDark.innerHTML = "light mode"
+        botaoDark.textContent = "light mode"
     } else {
-        botaoDark.innerHTML = "dark mode"
+        botaoDark.textContent = "dark mode"
     }
 };
 
@@ -25,15 +25,15 @@ function roletar() {
     console.log("roletou")
     const culpadoAleatorio = Math.floor(Math.random() * culpados.length);
     const culpadoEscolhido = culpados[culpadoAleatorio];
-    document.getElementById("roleta-culpado").innerHTML = culpadoEscolhido;
+    document.getElementById("roleta-culpado").textContent = culpadoEscolhido;
 
     const acoesAleatorio = Math.floor(Math.random() * acoes.length);
     const acoesEscolhido = acoes[acoesAleatorio];
-    document.getElementById("roleta-acao").innerHTML = acoesEscolhido;
+    document.getElementById("roleta-acao").textContent = acoesEscolhido;
 
     const motivoAleatorio = Math.floor(Math.random() * motivo.length);
     const motivoEscolhido = motivo[motivoAleatorio];
-    document.getElementById("roleta-motivo").innerHTML = motivoEscolhido;
+    document.getElementById("roleta-motivo").textContent = motivoEscolhido;
 
 
     const desculpaAtual = {
@@ -53,7 +53,7 @@ const dadosSalvos = localStorage.getItem("ultimaDescupa");
 if (dadosSalvos) {
 
     const descupaSalva = JSON.parse(dadosSalvos);
-    document.getElementById("roleta-culpado").innerHTML = descupaSalva.culpado;
-    document.getElementById("roleta-acao").innerHTML = descupaSalva.acao;
-    document.getElementById("roleta-motivo").innerHTML = descupaSalva.motivo;
+    document.getElementById("roleta-culpado").textContent = descupaSalva.culpado;
+    document.getElementById("roleta-acao").textContent = descupaSalva.acao;
+    document.getElementById("roleta-motivo").textContent = descupaSalva.motivo;
 };

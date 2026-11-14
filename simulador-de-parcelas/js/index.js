@@ -32,7 +32,7 @@ botao.addEventListener("click", function () {
     }
 
     const parcelaFormatada = valorParcela.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
-    document.getElementById("resultado").innerHTML = "O valor  da parcela é: " + parcelaFormatada;
+    document.getElementById("resultado").textContent = "O valor  da parcela é: " + parcelaFormatada;
 
 
 
