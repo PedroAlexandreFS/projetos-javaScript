@@ -15,27 +15,33 @@ formatacao.addEventListener("change", function () {
     let textoformatado = `${formatacaotexto}${inputtexto}${formatacaotexto}`;
     texto.value = textoformatado;
 
-    if (formatacaotexto === "*") {
-        let negrito = `<strong>${inputtexto}</strong>`;
-        resultadotexto.innerHTML = negrito
-    } else if (formatacaotexto === "_") {
-        let italico = `<em>${inputtexto}</em>`;
-        resultadotexto.innerHTML = italico;
+    //criando o objeto com as tags(valor do select)
+    const Tags = {
+        "*": "strong",
+        "_": "em",
+        "~": "del",
+        "```": "code"
+    };
 
-    } else if (formatacaotexto === "~") {
-        let tachado = `<del>${inputtexto}</del>`;
-        resultadotexto.innerHTML = tachado;
+    //variavel da tag escolhida
+    const TagsEscolhidas = Tags[formatacaotexto];
 
-    } else if (formatacaotexto === "```") {
-        let monospace = `<code>${inputtexto}</code>`;
-        resultadotexto.innerHTML = monospace;
+
+    if (TagsEscolhidas) {
+
+        const tag = document.createElement(TagsEscolhidas);
+
+        tag.textContent = inputtexto;
+
+        resultadotexto.replaceChildren(tag);
+
+
     }
 
-})
 
-
-btncopia.addEventListener('click', function () {
-    let textocopia = texto.value;
-    navigator.clipboard.writeText(textocopia);
-    alert("texto copiado");
+    btncopia.addEventListener('click', function () {
+        let textocopia = texto.value;
+        navigator.clipboard.writeText(textocopia);
+        alert("texto copiado");
+    })
 })
