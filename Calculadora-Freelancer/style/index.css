@@ -33,6 +33,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    justify-content: center;
 }
 
 div {
@@ -75,7 +76,7 @@ button:active {
     transform: scale(0.9);
 }
 
-#resultado{
+#resultado {
     background-color: #d9d9f5;
     padding: 20px;
     border-radius: 9px;
@@ -83,7 +84,7 @@ button:active {
     color: rgb(0, 0, 0);
 }
 
-#resultado span{
+#resultado span {
     font-weight: bold;
     font-size: 15px;
     color: #076d18;
@@ -91,10 +92,16 @@ button:active {
 }
 
 
-@media (max-width: 600px){
-    .card{
+@media (max-width: 600px) {
+    .card {
         margin: 0 auto;
         width: 90%;
 
     }
+
+    div{
+        align-items: center;
+    }
+
+
 }
